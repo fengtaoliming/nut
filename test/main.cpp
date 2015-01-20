@@ -39,9 +39,9 @@ int main()
 
     TestRunner trunner(l);
 
-    trunner.run_group("quiet");
+    //trunner.run_group("quiet");
 
-    //trunner.run_fixture("TestContainer");
+    trunner.run_fixture("TestFFT");
 
     // trunner.run_case("TestGC", "testSmoking");
 
